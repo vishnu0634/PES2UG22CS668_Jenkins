@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './PES2UG22CS668-1'
+                    sh './wrong_binary_name'
                 }
             }
         }
